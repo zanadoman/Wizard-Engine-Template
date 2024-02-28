@@ -7,7 +7,7 @@
 	.def	main;	.scl	2;	.type	32;	.endef
 	.seh_proc	main
 main:
-.LFB6889:
+.LFB6895:
 	pushq	%rdi
 	.seh_pushreg	%rdi
 	pushq	%rsi
@@ -196,25 +196,25 @@ main:
 	.def	__gxx_personality_seh0;	.scl	2;	.type	32;	.endef
 	.seh_handler	__gxx_personality_seh0, @unwind, @except
 	.seh_handlerdata
-.LLSDA6889:
+.LLSDA6895:
 	.byte	0xff
 	.byte	0xff
 	.byte	0x1
-	.uleb128 .LLSDACSE6889-.LLSDACSB6889
-.LLSDACSB6889:
-	.uleb128 .LEHB0-.LFB6889
+	.uleb128 .LLSDACSE6895-.LLSDACSB6895
+.LLSDACSB6895:
+	.uleb128 .LEHB0-.LFB6895
 	.uleb128 .LEHE0-.LEHB0
 	.uleb128 0
 	.uleb128 0
-	.uleb128 .LEHB1-.LFB6889
+	.uleb128 .LEHB1-.LFB6895
 	.uleb128 .LEHE1-.LEHB1
-	.uleb128 .L23-.LFB6889
+	.uleb128 .L23-.LFB6895
 	.uleb128 0
-	.uleb128 .LEHB2-.LFB6889
+	.uleb128 .LEHB2-.LFB6895
 	.uleb128 .LEHE2-.LEHB2
 	.uleb128 0
 	.uleb128 0
-.LLSDACSE6889:
+.LLSDACSE6895:
 	.section	.text.startup,"x"
 	.seh_endproc
 	.section .rdata,"dr"
